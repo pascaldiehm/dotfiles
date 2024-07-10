@@ -2,6 +2,7 @@
 
 # Setup dotfiles
 git --git-dir "$HOME/.config/dotfiles/repo" config --local status.showUntrackedFiles no
+git --git-dir "$HOME/.config/dotfiles/repo" remote set-branches --add origin main
 
 # Install paru
 if ! command -v paru; then
