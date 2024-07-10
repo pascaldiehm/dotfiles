@@ -10,6 +10,7 @@ set nowrap          " Disable line wrapping
 set incsearch       " Enable incremental search
 set ignorecase      " Ignore case when searching
 set smartcase       " Obey case when searching for capital letters
+set viminfo=""      " Disable viminfo file
 
 filetype plugin indent on  " Load filetype specific settings
 syntax on                  " Enable syntax highlighting
