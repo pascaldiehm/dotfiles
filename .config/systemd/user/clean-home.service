@@ -8,6 +8,7 @@ ExecStart=/usr/bin/rm -rf \
     .config/Code/User/workspaceStorage \
     .config/zsh/.histfile \
     .clang-repl-history \
+    .fonts.conf \
     .java \
     .mozilla \
     .node_repl_history \
