@@ -1,0 +1,15 @@
+[user]
+	name = Pascal Diehm
+	email = pdiehm8@gmail.com
+	signingkey = pdiehm8@gmail.com
+[commit]
+	gpgsign = true
+[fetch]
+	prune = true
+	pruneTags = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[submodule]
+	recurse = true
