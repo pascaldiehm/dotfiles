@@ -1,0 +1,23 @@
+[Added Associations]
+application/x-tiled-tsx=org.kde.kate.desktop;
+audio/mpeg=vlc.desktop;
+image/svg+xml=org.kde.gwenview.desktop;
+inode/directory=org.kde.dolphin.desktop;code.desktop;org.kde.kate.desktop;org.kde.filelight.desktop;org.kde.gwenview.desktop;
+text/vnd.trolltech.linguist=org.kde.kate.desktop;
+x-scheme-handler/bitwarden=bitwarden.desktop;Bitwarden.desktop;
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/http=google-chrome.desktop;firefox.desktop;
+x-scheme-handler/https=google-chrome.desktop;firefox.desktop;
+text/html=google-chrome.desktop
+
+[Default Applications]
+application/x-tiled-tsx=org.kde.kate.desktop;
+audio/mpeg=vlc.desktop;
+image/svg+xml=org.kde.gwenview.desktop;
+inode/directory=org.kde.dolphin.desktop;
+text/vnd.trolltech.linguist=org.kde.kate.desktop;
+x-scheme-handler/bitwarden=bitwarden.desktop
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+text/html=google-chrome.desktop

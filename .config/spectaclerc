@@ -1,0 +1,12 @@
+[Annotations]
+annotationToolType=8
+
+[GuiConfig]
+captureMode=3
+
+[ImageSave]
+imageSaveLocation=file:///home/pascal/Downloads
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts
