@@ -1,0 +1,10 @@
+[Unit]
+Description=Update user configuration from dotfiles
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart="%h/.config/dotfiles/update.sh"
+
+[Install]
+WantedBy=default.target
