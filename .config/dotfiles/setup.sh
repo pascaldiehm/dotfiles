@@ -17,6 +17,7 @@ paru -S --asdeps ttf-meslo-nerd-font-powerlevel10k
 
 # Setup system
 sudo "$HOME/.config/dotfiles/root/update.sh"
+sudo locale-gen
 
 # Enable systemd services
 sudo systemctl daemon-reload
