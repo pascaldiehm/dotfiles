@@ -1,0 +1,15 @@
+set number          " Enable line numbers
+set relativenumber  " Enable relative line numbers
+set shiftwidth=4    " Set shiftwidth
+set tabstop=4       " Set tabwidth
+set expandtab       " Enable expanding tabs to spaces
+set smarttab        " Insert tab character as spaces
+set autoindent      " Enable automatic indentation
+set scrolloff=10    " Set scroll offset
+set nowrap          " Disable line wrapping
+set incsearch       " Enable incremental search
+set ignorecase      " Ignore case when searching
+set smartcase       " Obey case when searching for capital letters
+
+filetype plugin indent on  " Load filetype specific settings
+syntax on                  " Enable syntax highlighting

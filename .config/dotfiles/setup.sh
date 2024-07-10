@@ -18,6 +18,8 @@ paru -S --noconfirm --asdeps ttf-meslo-nerd-font-powerlevel10k
 paru -S --noconfirm ark dolphin filelight gwenview kate kdeconnect konsole kwallet okular partitionmanager spectacle
 paru -S --noconfirm --asdeps ffmpegthumbs kdegraphics-thumbnailers kwalletmanager
 
+paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg-ninja yarn
+
 # Setup user
 sudo chsh -s /usr/bin/zsh $USER
 
@@ -28,6 +30,7 @@ sudo locale-gen
 # Enable systemd services
 sudo systemctl daemon-reload
 sudo systemctl enable --now dotfiles-update
+sudo systemctl enable reflector
 
 systemctl --user daemon-reload
 systemctl --user enable --now dotfiles-update
