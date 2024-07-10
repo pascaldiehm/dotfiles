@@ -12,8 +12,8 @@ if ! command -v paru; then
 fi
 
 # Install packages
-paru -S zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
-paru -S --asdeps ttf-meslo-nerd-font-powerlevel10k
+paru -S --noconfirm zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
+paru -S --noconfirm --asdeps ttf-meslo-nerd-font-powerlevel10k
 
 # Setup user
 sudo chsh -s /usr/bin/zsh $USER
