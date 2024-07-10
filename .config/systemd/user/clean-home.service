@@ -1,0 +1,26 @@
+[Unit]
+Description=Clean unwanted files and histories from $HOME
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/rm -rf \
+    .config/Code/User/History \
+    .config/Code/User/workspaceStorage \
+    .config/zsh/.histfile \
+    .clang-repl-history \
+    .java \
+    .mozilla \
+    .node_repl_history \
+    .npm \
+    .npmrc \
+    .openjfx \
+    .python_history \
+    .redhat \
+    .sqlite_history \
+    .wget-hsts \
+    .vim \
+    .viminfo \
+    .yarnrc
+
+[Install]
+WantedBy=default.target

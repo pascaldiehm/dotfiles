@@ -25,3 +25,4 @@ sudo systemctl enable --now dotfiles-update
 
 systemctl --user daemon-reload
 systemctl --user enable --now dotfiles-update
+systemctl --user enable clean-home
