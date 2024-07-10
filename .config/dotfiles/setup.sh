@@ -15,6 +15,9 @@ fi
 paru -S zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
 paru -S --asdeps ttf-meslo-nerd-font-powerlevel10k
 
+# Setup user
+sudo chsh -s /usr/bin/zsh $USER
+
 # Setup system
 sudo "$HOME/.config/dotfiles/root/update.sh"
 sudo locale-gen
