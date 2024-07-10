@@ -28,6 +28,7 @@ paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg
 paru -S --noconfirm bitwarden google-chrome thunderbird visual-studio-code-bin vlc
 paru -S --noconfirm docker docker-compose
 paru -S --noconfirm bind traceroute websocat wget wireguard-tools
+paru -S --noconfirm dosfstools exfat-utils testdisk
 
 # Setup user
 sudo chsh -s /usr/bin/zsh $USER
