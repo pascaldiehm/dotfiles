@@ -19,7 +19,7 @@ paru -S --asdeps ttf-meslo-nerd-font-powerlevel10k
 sudo chsh -s /usr/bin/zsh $USER
 
 # Setup system
-sudo "$HOME/.config/dotfiles/root/update.sh"
+sudo "$HOME/.config/dotfiles/system/update.sh"
 sudo locale-gen
 
 # Enable systemd services
