@@ -11,6 +11,10 @@ if ! command -v paru; then
     cd -
 fi
 
+# Install packages
+paru -S zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
+paru -S --asdeps ttf-meslo-nerd-font-powerlevel10k
+
 # Setup system
 sudo "$HOME/.config/dotfiles/root/update.sh"
 
