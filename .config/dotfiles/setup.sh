@@ -21,6 +21,9 @@ paru -S --noconfirm --asdeps ffmpegthumbs kdegraphics-thumbnailers kwalletmanage
 paru -S --noconfirm clang cmake
 paru -S --noconfirm --asdeps ninja
 
+paru -S --noconfirm texlive-meta texlive-langgerman
+paru -S --noconfirm --asdeps perl-yaml-tiny perl-file-homedir
+
 paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg-ninja yarn
 paru -S --noconfirm bitwarden google-chrome thunderbird visual-studio-code-bin vlc
 
