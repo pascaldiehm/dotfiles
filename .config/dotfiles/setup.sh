@@ -18,6 +18,9 @@ paru -S --noconfirm --asdeps ttf-meslo-nerd-font-powerlevel10k
 paru -S --noconfirm ark dolphin filelight gwenview kate kdeconnect konsole kwallet okular partitionmanager spectacle
 paru -S --noconfirm --asdeps ffmpegthumbs kdegraphics-thumbnailers kwalletmanager
 
+paru -S --noconfirm clang cmake
+paru -S --noconfirm --asdeps ninja
+
 paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg-ninja yarn
 paru -S --noconfirm bitwarden google-chrome thunderbird visual-studio-code-bin vlc
 
