@@ -19,6 +19,7 @@ paru -S --noconfirm ark dolphin filelight gwenview kate kdeconnect konsole kwall
 paru -S --noconfirm --asdeps ffmpegthumbs kdegraphics-thumbnailers kwalletmanager
 
 paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg-ninja yarn
+paru -S --noconfirm bitwarden google-chrome thunderbird visual-studio-code-bin vlc
 
 # Setup user
 sudo chsh -s /usr/bin/zsh $USER
