@@ -32,6 +32,7 @@ paru -S --noconfirm dosfstools exfat-utils testdisk
 
 # Setup user
 sudo chsh -s /usr/bin/zsh $USER
+sudo usermod -aG docker $USER
 
 # Setup system
 sudo "$HOME/.config/dotfiles/system/update.sh"
@@ -40,6 +41,7 @@ sudo locale-gen
 # Enable systemd services
 sudo systemctl daemon-reload
 sudo systemctl enable --now dotfiles-update
+sudo systemctl enable docker
 sudo systemctl enable reflector
 
 systemctl --user daemon-reload
