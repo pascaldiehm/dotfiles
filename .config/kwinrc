@@ -26,9 +26,6 @@ dimscreenEnabled=true
 [Tiling]
 padding=4
 
-[Tiling][093d315a-d7d7-5580-8d70-0f40088ca12f]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
-
 [Windows]
 MaximizeButtonMiddleClickCommand=Maximize
 MaximizeButtonRightClickCommand=Maximize
