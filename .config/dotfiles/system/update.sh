@@ -3,6 +3,10 @@
 cd $(realpath $(dirname $0))
 sed "s#ExecStart=.*#ExecStart=\"$(pwd)/update.sh\"#" dotfiles-update.service > /etc/systemd/system/dotfiles-update.service
 
+mkdir -p /etc/xdg/reflector
+mkdir -p /etc/sddm.conf.d
+mkdir -p /etc/zsh
+
 cp ./locale.gen /etc/locale.gen
 cp ./pacman.conf /etc/pacman.conf
 cp ./paru.conf /etc/paru.conf
