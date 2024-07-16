@@ -4,24 +4,6 @@
 git --git-dir "$HOME/.config/dotfiles/repo" config --local status.showUntrackedFiles no
 git --git-dir "$HOME/.config/dotfiles/repo" remote set-branches --add origin main
 
-# Setup user
-sudo chsh -s /usr/bin/zsh $USER
-sudo usermod -aG docker $USER
-
-# Setup system
-sudo "$HOME/.config/dotfiles/system/update.sh"
-sudo locale-gen
-
-# Enable systemd services
-systemctl --user daemon-reload
-systemctl --user enable --now dotfiles-update
-systemctl --user enable clean-home
-
-sudo systemctl daemon-reload
-sudo systemctl enable --now dotfiles-update
-sudo systemctl enable docker
-sudo systemctl enable reflector
-
 # Install paru
 if ! command -v paru; then
     git clone https://aur.archlinux.org/paru-bin.git /tmp/paru
@@ -48,3 +30,22 @@ paru -S --noconfirm bitwarden google-chrome thunderbird visual-studio-code-bin v
 paru -S --noconfirm docker docker-compose
 paru -S --noconfirm bind traceroute websocat wget wireguard-tools
 paru -S --noconfirm dosfstools exfat-utils testdisk
+
+# Setup user
+sudo chsh -s /usr/bin/zsh $USER
+sudo usermod -aG docker $USER
+
+# Setup system
+sudo "$HOME/.config/dotfiles/system/update.sh"
+sudo locale-gen
+
+# Enable systemd services
+systemctl --user daemon-reload
+systemctl --user enable --now dotfiles-update
+systemctl --user enable clean-home
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now dotfiles-update
+sudo systemctl enable docker
+sudo systemctl enable reflector
+
