@@ -25,7 +25,7 @@ paru -S --noconfirm --asdeps ninja
 paru -S --noconfirm texlive-meta texlive-langgerman
 paru -S --noconfirm --asdeps perl-yaml-tiny perl-file-homedir
 
-paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg-ninja yarn
+paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg-ninja yarn yt-dlp
 paru -S --noconfirm bitwarden google-chrome thunderbird visual-studio-code-bin vlc
 paru -S --noconfirm docker docker-compose
 paru -S --noconfirm bind traceroute websocat wget wireguard-tools
