@@ -40,7 +40,6 @@ sudo usermod -aG docker $USER
 
 # Setup system
 sudo "$HOME/.config/dotfiles/system/update.sh"
-sudo locale-gen
 
 # Enable systemd services
 systemctl --user daemon-reload
@@ -51,4 +50,3 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now dotfiles-update
 sudo systemctl enable docker
 sudo systemctl enable reflector
-
