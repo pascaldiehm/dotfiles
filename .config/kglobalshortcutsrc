@@ -3,8 +3,8 @@ _k_friendly_name=Activity Manager
 switch-to-activity-5557b21e-93cd-44b5-960e-bae57750c216=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
-Switch to Last-Used Keyboard Layout=none,Meta+Alt+L,Switch to Last-Used Keyboard Layout
-Switch to Next Keyboard Layout=none,Meta+Alt+K,Switch to Next Keyboard Layout
+Switch to Last-Used Keyboard Layout=none,Meta+Alt+L,
+Switch to Next Keyboard Layout=none,Meta+Alt+K,
 _k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
@@ -45,9 +45,9 @@ Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=Meta+T,Meta+T,Toggle Tiles Editor
-Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
-ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
+Expose=none,Ctrl+F9,Toggle Present Windows (Current desktop)
+ExposeAll=none,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeClass=none,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=none,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
@@ -219,11 +219,11 @@ Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=KDE Power Management System
-powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
+powerProfile=Battery,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
 _k_friendly_name=plasmashell
-activate application launcher=Meta,Meta\tAlt+F1,Activate Application Launcher
+activate application launcher=Meta\tAlt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -234,16 +234,15 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
-activate widget 3=none,none,Activate Application Launcher Widget
-activate widget 5=Alt+F1,none,Activate Application Launcher Widget
+activate widget 5=none,none,Activate Application Launcher Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=none,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 manage activities=none,Meta+Q,Show Activity Switcher
-next activity=Meta+A,none,Walk through activities
-previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
+next activity=none,none,Walk through activities
+previous activity=none,none,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=none,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
@@ -269,3 +268,6 @@ RecordScreen=none
 RecordWindow=none
 WindowUnderCursorScreenShot=none
 _launch=Print
+
+[services][systemsettings.desktop]
+_launch=none
