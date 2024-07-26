@@ -25,8 +25,8 @@ paru -S --noconfirm --asdeps ninja
 paru -S --noconfirm texlive-meta texlive-langgerman
 paru -S --noconfirm --asdeps perl-yaml-tiny perl-file-homedir
 
-paru -S --noconfirm networkmanager-openconnect
-paru -S --noconfirm --asdeps subversion perl-term-readkey
+paru -S --noconfirm networkmanager-openconnect subversion
+paru -S --noconfirm --asdeps perl-term-readkey
 
 paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg-ninja yarn yt-dlp
 paru -S --noconfirm bitwarden google-chrome thunderbird visual-studio-code-bin vlc
