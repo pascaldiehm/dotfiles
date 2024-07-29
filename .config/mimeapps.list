@@ -53,6 +53,7 @@ video/x-ogm+ogg=vlc.desktop;
 video/x-theora=vlc.desktop;
 video/x-theora+ogg=vlc.desktop;
 x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/bitwarden=bitwarden.desktop;Bitwarden.desktop;
 
 [Default Applications]
 application/x-matroska=vlc.desktop;
@@ -109,3 +110,4 @@ video/x-ogm+ogg=vlc.desktop;
 video/x-theora=vlc.desktop;
 video/x-theora+ogg=vlc.desktop;
 x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/bitwarden=bitwarden.desktop
