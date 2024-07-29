@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 # Setup dotfiles
 git --git-dir "$HOME/.config/dotfiles/repo" config --local status.showUntrackedFiles no
