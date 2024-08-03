@@ -16,7 +16,7 @@ fi
 paru -S --noconfirm zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
 paru -S --noconfirm --asdeps ttf-meslo-nerd-font-powerlevel10k
 
-paru -S --noconfirm ark dolphin filelight gwenview kate kdeconnect konsole kwallet okular partitionmanager spectacle
+paru -S --noconfirm ark dolphin filelight gwenview kate kdeconnect konsole kwallet okular partitionmanager signal-desktop spectacle
 paru -S --noconfirm --asdeps ffmpegthumbs kdegraphics-thumbnailers kwalletmanager
 
 paru -S --noconfirm clang cmake
