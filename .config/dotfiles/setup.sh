@@ -29,7 +29,7 @@ paru -S --noconfirm networkmanager-openconnect subversion
 paru -S --noconfirm --asdeps perl-term-readkey
 
 paru -S --noconfirm cloc fwupd hexedit htop imagemagick man-db reflector vim xdg-ninja yarn yt-dlp
-paru -S --noconfirm bitwarden google-chrome thunderbird visual-studio-code-bin vlc
+paru -S --noconfirm bitwarden google-chrome signal-desktop thunderbird visual-studio-code-bin vlc
 paru -S --noconfirm docker docker-compose
 paru -S --noconfirm bind traceroute websocat wget wireguard-tools
 paru -S --noconfirm dosfstools exfat-utils testdisk
