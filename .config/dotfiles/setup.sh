@@ -13,7 +13,7 @@ if ! command -v paru; then
 fi
 
 # Install packages
-paru -S --noconfirm zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
+unset CMAKE_GENERATOR; paru -S --noconfirm zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
 paru -S --noconfirm --asdeps ttf-meslo-nerd-font-powerlevel10k
 
 paru -S --noconfirm ark dolphin filelight gwenview kate kdeconnect konsole kwallet okular partitionmanager spectacle
