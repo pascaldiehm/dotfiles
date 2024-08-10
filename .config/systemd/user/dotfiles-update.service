@@ -4,6 +4,7 @@ After=network-online.target
 
 [Service]
 Type=oneshot
+ExecStartPre=/bin/sh -c 'until ping -c1 1.1.1.1; do sleep 1; done'
 ExecStart="%h/.config/dotfiles/update.sh"
 
 [Install]
