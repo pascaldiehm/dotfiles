@@ -4,7 +4,9 @@ After=network-online.target
 
 [Service]
 Type=oneshot
+ExecStartPre=/bin/sh -c 'until [ -f /tmp/dotfiles-updated ]; do sleep 1; done'
 ExecStart=true
+ExecStartPost=/bin/sh -c 'rm -f /tmp/dotfiles-updated'
 
 [Install]
 WantedBy=default.target
