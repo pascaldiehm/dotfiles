@@ -1,14 +1,18 @@
 [AC][Display]
+DimDisplayIdleTimeoutSec=-1
 DimDisplayWhenIdle=false
+DisplayBrightness=100
+UseProfileSpecificDisplayBrightness=true
 
 [AC][SuspendAndShutdown]
 AutoSuspendAction=0
-LidAction=32
+
+[Battery][Display]
+DisplayBrightness=50
+UseProfileSpecificDisplayBrightness=true
 
 [Battery][SuspendAndShutdown]
 AutoSuspendAction=0
-LidAction=32
 
-[LowBattery][SuspendAndShutdown]
-AutoSuspendAction=8
-LidAction=32
+[LowBattery][Display]
+DisplayBrightness=25
