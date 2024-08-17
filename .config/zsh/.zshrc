@@ -48,6 +48,7 @@ bindkey '^Y'      redo                                 # Ctrl Y
 bindkey '^Z'      undo                                 # Ctrl Z
 
 # Alias definitions
+alias copy="wl-copy"
 alias dotfiles="git --git-dir '$HOME/.config/dotfiles/repo' --work-tree '$HOME'"
 alias grep="grep --color=auto"
 alias ll="ls -Alh"
