@@ -13,27 +13,27 @@ if ! command -v paru; then
 fi
 
 # Install packages
-unset CMAKE_GENERATOR; paru -S --noconfirm zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
+unset CMAKE_GENERATOR; paru -S --noconfirm --asexplicit zsh zsh-autosuggestions-git zsh-completions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git
 paru -S --noconfirm --asdeps ttf-meslo-nerd-font-powerlevel10k
 
-paru -S --noconfirm ark dolphin filelight gwenview kate kdeconnect konsole kwallet okular partitionmanager spectacle
-paru -S --noconfirm --asdeps ffmpegthumbs kdegraphics-thumbnailers kwalletmanager
+paru -S --noconfirm --asexplicit ark dolphin filelight gwenview kate kdeconnect konsole kwallet kwalletmanager okular partitionmanager spectacle
+paru -S --noconfirm --asdeps ffmpegthumbs kdegraphics-thumbnailers
 
-paru -S --noconfirm clang cmake
+paru -S --noconfirm --asexplicit clang cmake
 paru -S --noconfirm --asdeps ninja
 
-paru -S --noconfirm texlive-meta texlive-langgerman
+paru -S --noconfirm --asexplicit texlive-meta texlive-langgerman
 paru -S --noconfirm --asdeps perl-yaml-tiny perl-file-homedir
 
-paru -S --noconfirm networkmanager-openconnect subversion
+paru -S --noconfirm --asexplicit networkmanager-openconnect subversion
 paru -S --noconfirm --asdeps perl-term-readkey
 
-paru -S --noconfirm noto-fonts-extra noto-fonts-emoji noto-fonts-cjk
-paru -S --noconfirm cloc fwupd hexedit htop imagemagick jq man-db reflector vim wl-clipboard xdg-ninja yarn yt-dlp
-paru -S --noconfirm bitwarden google-chrome signal-desktop thunderbird visual-studio-code-bin vlc
-paru -S --noconfirm docker docker-compose
-paru -S --noconfirm bind traceroute websocat wget wireguard-tools
-paru -S --noconfirm dosfstools exfat-utils testdisk
+paru -S --noconfirm --asexplicit noto-fonts-extra noto-fonts-emoji noto-fonts-cjk
+paru -S --noconfirm --asexplicit cloc fwupd hexedit htop imagemagick jq man-db reflector vim wl-clipboard xdg-ninja yarn yt-dlp
+paru -S --noconfirm --asexplicit bitwarden google-chrome signal-desktop thunderbird visual-studio-code-bin vlc
+paru -S --noconfirm --asexplicit docker docker-compose
+paru -S --noconfirm --asexplicit bind traceroute websocat wget wireguard-tools
+paru -S --noconfirm --asexplicit dosfstools exfat-utils testdisk
 
 # Setup user
 sudo chsh -s /usr/bin/zsh $USER
