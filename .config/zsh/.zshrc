@@ -57,6 +57,14 @@ alias open="xdg-open"
 alias py="python3"
 
 # Functions
+function list-optional-dependencies {
+    paru -Qdq | while read pkg; do
+        if (paru -Qi "$pkg" | grep "Required By" | grep "None" > /dev/null); then
+            echo "$pkg"
+        fi
+    done
+}
+
 function pyenv {
   [ -d .venv ] || python3 -m venv .venv
   source .venv/bin/activate
