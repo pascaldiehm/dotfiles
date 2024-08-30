@@ -56,6 +56,8 @@ x-scheme-handler/geo=google-maps-geo-handler.desktop;
 x-scheme-handler/bitwarden=bitwarden.desktop;Bitwarden.desktop;
 x-scheme-handler/sgnl=signal-desktop.desktop;signal.desktop;
 x-scheme-handler/signalcaptcha=signal-desktop.desktop;signal.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-NTVPT2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-NTVPT2.desktop;
 
 [Default Applications]
 application/x-matroska=vlc.desktop;
@@ -118,3 +120,6 @@ x-scheme-handler/signalcaptcha=signal-desktop.desktop
 x-scheme-handler/http=google-chrome.desktop
 x-scheme-handler/https=google-chrome.desktop
 text/html=google-chrome.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-NTVPT2.desktop
+message/rfc822=userapp-Thunderbird-NTVPT2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-NTVPT2.desktop
