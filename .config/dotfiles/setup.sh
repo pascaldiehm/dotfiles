@@ -29,7 +29,7 @@ paru -S --noconfirm --asexplicit networkmanager-openconnect subversion
 paru -S --noconfirm --asdeps perl-term-readkey
 
 paru -S --noconfirm --asexplicit noto-fonts-extra noto-fonts-emoji noto-fonts-cjk
-paru -S --noconfirm --asexplicit cloc fwupd hexedit htop imagemagick jq man-db reflector vim wl-clipboard xdg-ninja yarn yt-dlp
+paru -S --noconfirm --asexplicit cloc fwupd hexedit htop imagemagick jq man-db php reflector vim wl-clipboard xdg-ninja yarn yt-dlp
 paru -S --noconfirm --asexplicit bitwarden google-chrome signal-desktop thunderbird visual-studio-code-bin vlc
 paru -S --noconfirm --asexplicit docker docker-compose
 paru -S --noconfirm --asexplicit bind traceroute websocat wget wireguard-tools
