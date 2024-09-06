@@ -1,5 +1,5 @@
 [Auto Allow]
-kdewallet=kwalletmanager5,kded6,Code,Google Chrome,KDE System,Signal
+kdewallet=kded6,Google Chrome,KDE System,Signal,kwalletmanager,Code
 
 [Wallet]
 Close When Idle=false
