@@ -6,7 +6,7 @@ git --git-dir "$HOME/.config/dotfiles/repo" remote set-branches --add origin mai
 
 # Install paru
 if ! command -v paru; then
-    git clone https://aur.archlinux.org/paru-bin.git /tmp/paru
+    git clone https://aur.archlinux.org/paru-git.git /tmp/paru
     cd /tmp/paru
     makepkg -sirc --noconfirm
     cd -

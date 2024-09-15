@@ -4,6 +4,7 @@ Description=Clean unwanted files and histories from $HOME
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/rm -rf \
+    .cargo \
     .config/Code/User/History \
     .config/Code/User/workspaceStorage \
     .config/zsh/.histfile \
