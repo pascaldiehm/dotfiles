@@ -2,8 +2,8 @@
 Days Meta Infos=30
 Save Meta Infos=true
 Show Full Path in Title=false
-Show Menu Bar=true
-Show Status Bar=true
+Show Menu Bar=false
+Show Status Bar=false
 Show Tab Bar=true
 Show Url Nav Bar=false
 Show welcome view for new window=false
@@ -16,6 +16,7 @@ Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font Features=
 Word Wrap Marker=false
 
 [filetree]
@@ -28,26 +29,3 @@ showFullPathOnRoots=false
 showToolbar=true
 sortRole=0
 viewShade=81,49,95
-
-[lspclient]
-AllowedServerCommandLines=
-AutoHover=true
-AutoImport=true
-BlockedServerCommandLines=/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled
-CompletionDocumentation=true
-CompletionParens=true
-Diagnostics=true
-FormatOnSave=false
-HighlightGoto=true
-IncrementalSync=false
-InlayHints=false
-Messages=true
-ReferencesDeclaration=true
-SemanticHighlighting=true
-ServerConfiguration=
-SignatureHelp=true
-SymbolDetails=false
-SymbolExpand=true
-SymbolSort=false
-SymbolTree=true
-TypeFormatting=false
